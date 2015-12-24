@@ -6,8 +6,6 @@ package com.rush.qqdexpose;
 import android.content.Context;
 import android.widget.Toast;
 
-import cn.shuzilm.core.Main;
-
 public class TestUtil {
 
     public static void showToast(Context context) {
@@ -15,7 +13,6 @@ public class TestUtil {
     }
 
     public static void loadSoLib(Context context) {
-        Main.go(context, "test", "test");
         Toast.makeText(context, "origin loadSoLib()", Toast.LENGTH_SHORT).show();
     }
 }
