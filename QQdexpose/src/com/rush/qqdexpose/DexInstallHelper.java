@@ -1,6 +1,3 @@
-/**
- * Copyright (C) 2006-2015 Tuniu All rights reserved
- */
 package com.rush.qqdexpose;
 
 import java.io.File;
